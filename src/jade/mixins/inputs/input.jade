@@ -1,0 +1,32 @@
+mixin datepange()
+	.form-group
+		.row
+			+dateold
+			+datenew
+mixin dateold
+	.col-sm-6
+		.col-sm-10
+			input.form-control.date#date_old(type="text")
+		label.control-label(for="date_old") :إلى
+mixin datenew
+	.col-sm-6
+		.col-sm-10
+			input.form-control.date#date_new(type="text")
+		label.control-label(for="date_new") :من
+
+
+mixin formradio
+	.form-input.text-center
+		.row
+			.col-sm-11
+				+radio('1', 'الرسائل الواردة', 'radio1', 'true')
+				+radio('1', 'الرسائل المرسلة', 'radio2', 'false')
+
+
+mixin radio(name, label, id, checked)
+	- check = checked || 'false'
+		.radio.radio-inline(style="margin-top: 0px")
+			label
+				=label
+				input(type="radio" name=name checked=check id=id value=id)
+

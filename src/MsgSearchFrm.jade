@@ -1,0 +1,41 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      form(role="form")
+         +datepange
+         +formradio
+         .form-group(style="margin-top:20px")
+            .row.text-center
+               .col-sm-4
+                  +button('ارسال رسالة')
+               .col-sm-4
+                  +button('طباعة')
+               .col-sm-4
+                  +button('بحث')
+   .container
+      table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+         thead
+            tr
+               th تفاصيل
+               th تاريخ القراءة
+               th تم القراءة؟
+               th تاريخ الارسال
+               th المستقبل
+               th المرسل
+               th م
+         tbody
+            tr
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+
+
+

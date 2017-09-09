@@ -1,0 +1,63 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      form(role="form")
+         +datepange
+         .form-group
+            .row
+               .col-sm-10
+                  .col-sm-12
+                     select(name='1')#select(style='width:100%').form-control
+                        option(value='1') 1
+                        option(value='2') 2
+               label.control-label(for="select") :الدولة
+         .form-group(style="margin-top:20px")
+            .row.text-center
+               .col-sm-6
+                  +button('طباعة')
+               .col-sm-6
+                  +button('بحث')
+   .container
+      table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+         thead
+            tr
+               th الميزات والشروط
+               th الى
+               th من
+               th العدد
+               th الديانة
+               th الخبرات
+               th الدولة
+               th المهنة
+               th العنوان
+               th الجوال
+               th التأشيرة
+               th الهوية
+               th العميل
+               th تاريخ العقد
+               th رقم العقد
+         tbody
+            tr
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+
+
+
+

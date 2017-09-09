@@ -1,0 +1,142 @@
+mixin navbar()
+   .navbar.navbar-inverse(role="navigation")
+      .container-fluid
+         .navbar-header.navbar-right
+            include nav-button.html
+            a(href="/" style="padding:10px").navbar-brand
+               img(src="img/splash.png" alt="logo" width='40' )
+         .collapse.navbar-collapse
+            ul.nav.navbar-nav.navbar-right(style="margin-right:20px")
+               li
+                  span اخر تحديث:
+               li
+                  a(href="MsgSearchFrm.html") الرسائل
+               li
+                  a(href="recstatusmsgform.html") الحالات
+               li
+                  a(href="customerordersfrm.html") العقود
+               li
+                  a(href="emploedinfoform.html") الموظفون
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> حول
+                  ul.dropdown-menu
+                     li
+                        a(href="abuotfrm.html") المطورون
+                     li
+                        a(href="activiationform.html") تفعيل البرنامج
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> المستخدمون
+                  ul.dropdown-menu
+                     li
+                        a(href="userfrm.html") ادارة المستخدمين
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> الماليةFinance
+                  ul.dropdown-menu
+                     li
+                        a(href="aqedbalanceform.html") مالية العقود
+                     li
+                        a(href="#") مديونية العملاء
+                     li
+                        a(href="#") حركة الحسابات
+                     li
+                        a(href="#") مالية المعقبين
+                     li.divider
+                     li
+                        a(href="#") مالية المكاتب الخارجية|Office Finance
+                     li
+                        a(href="#") دفعات المكاتب الخارجية
+                     li
+                        a(href="#") دفعات مرتجعات مكاتب خارجية
+                     li.divider
+                     li
+                        a(href="#") المصاريف العامة
+                     li
+                        a(href="#") الايرادات المتنوعة
+                     li.divider
+                     li
+                        a(href="#") التحويل بين الحسابات
+                     li
+                        a(href="#") أرصدة الحسابات
+                     li
+                        a(href="#") الميزانية
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> الإدارية
+                  ul.dropdown-menu
+                     +menuitem('الموظفون')
+                     +menuitem('عقود الموظفون')
+                     +menuitem('الاجازات')
+                     li.divider
+                     +menuitem('الرواتب')
+                     +menuitem('السلف')
+                     +menuitem('إدارة الشهور')
+                     li.divider
+                     +menuitem('إستحقاقات الموظفين')
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> أعمال المكتب|OfficeJob
+                  ul.dropdown-menu
+                     +menuitem('عقود')
+                     +menuitem('إضافة عقد')
+                     +menuitem('اعتماد العقود')
+                     +menuitem('ملاحظات العقود')
+                     li.divider
+                     +menuitem('السير الذاتية|C.V')
+                     +menuitem('حالة وصول العمالة')
+                     +menuitem('استعلام عن عامل')
+                     li.divider
+                     +menuitem('العملاء')
+                     +menuitem('القائمة السوداء للعملاء')
+                     +menuitem('طلبات العملاء')
+                     li.divider
+                     +menuitem('التفاويض الالكترونية')
+                     +menuitem('حالات العقود')
+                     +menuitem('متابعة عقود')
+                     +menuitem('نقل الكفالة')
+                     li.divider
+                     +menuitem('خطاب الاحالة')
+                     +menuitem('الارساليات')
+                     +menuitem('ماقبل العقد')
+                     +menuitem('الارتجاع والبدائل')
+                     +menuitem('الاحصائية')
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> البيانات الاساسية
+                  ul.dropdown-menu
+                     +menuitem('الجنسيات')
+                     +menuitem('المطارات')
+                     +menuitem('الديانات')
+                     +menuitem('الحالات ')
+                     +menuitem('المهن')
+                     +menuitem('أنواع المرفقات')
+                     +menuitem('مصادر العقد')
+                     li.divider
+                     +menuitem('المكاتب الخارجية')
+                     +menuitem('اسعار المكاتب')
+                     +menuitem('القائمة السوداء')
+                     li.divider
+                     +menuitem('أسعار العملاء')
+                     li.divider
+                     +menuitem('إدارة الحسابات')
+                     li.divider
+                     +menuitem('أنواع الإيرادات')
+                     +menuitem('أنواع المصاريف')
+                     li.divider
+                     +menuitem('المعقبون')
+                     li.divider
+                     +menuitem('الاستحقاقات')
+               li.dropdown
+                  a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> الملف
+                  ul.dropdown-menu
+                     +menuitem('تأمين البرنامج|Lock')
+                     +menuitem('الملف الشخصي|Profile')
+                     +menuitem('معلومات المؤسسة')
+                     +menuitem('إعدادات طباعة العقد')
+                     +menuitem('اعدادات طباعة السندات')
+                     +menuitem('ادارة التقارير')
+                     +menuitem('رسائل الجوال')
+                     li.divider
+                     +menuitem('نسخة إحتياطية')
+                     +menuitem('استعادة نسخة')
+                     +menuitem('رفع التحديث على الموقع')
+                     li.divider
+                     +menuitem('حركات النظام')
+                     li.divider
+                     +menuitem('خروج|Exit')

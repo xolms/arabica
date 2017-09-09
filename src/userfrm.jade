@@ -1,0 +1,34 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      form.pull-right(style='width:100%').text-center
+         .row
+            .form-group.col-sm-6.col-sm-push-6
+               +btnprint
+               +btnref
+               +btnsave
+               +btncross
+               +btnsucc
+   .container
+      .row
+         table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+            thead
+               tr
+                  th فعال؟
+                  th مدير؟
+                  th المكتب
+                  th كلمة السر
+                  th اسم المستخدم
+                  th م
+            tbody
+               tr
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123

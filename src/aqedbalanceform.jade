@@ -1,0 +1,16 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      form(role="form")
+         +datepange
+         +formradio
+         .form-group(style="margin-top:20px")
+            .row.text-center
+               .col-sm-6
+                  +button('طباعة')
+               .col-sm-6
+                  +button('بحث')

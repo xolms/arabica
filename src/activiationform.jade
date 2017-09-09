@@ -1,0 +1,19 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      .row
+         form
+            .form-group.text-right
+               label.form-label(for='key') Key
+               input(type='text' id='key' name='key').form-control
+            .form-group.text-right
+               label.form-label(for='name') مفتاح التفعيل
+               input(type='text' id='name' name='name').form-control
+            .form-group.text-center
+               button.btn.btn-danger.btn-lg إغلاق
+               button.btn.btn-primary.btn-lg تفعيل
+               button.btn.btn-success.btn-lg تفعيل

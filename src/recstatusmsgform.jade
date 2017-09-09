@@ -1,0 +1,48 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      form(role="form")
+         +datepange
+         .form-group(style="margin-top:20px")
+            .row.text-center
+               .col-sm-6
+                  +button('Print')
+               .col-sm-6
+                  +button('Search')
+
+   .container
+      table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+         thead
+            tr
+               th status_id
+               th ChangeStatus
+               th Office
+               th Done date
+               th Status date
+               th Status
+               th Job
+               th Recruitmenter
+               th Visa No
+               th Customer
+               th contract id
+         tbody
+            tr
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+               td 123
+
+
+
+
