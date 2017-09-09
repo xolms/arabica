@@ -42,8 +42,8 @@
                 <li class="dropdown"><a data-toggle="dropdown" href="#" class="dropdown-toggle"><b class="caret"></b> الماليةFinance</a>
                   <ul class="dropdown-menu">
                     <li><a href="aqedbalanceform.html">مالية العقود</a></li>
-                    <li><a href="#">مديونية العملاء</a></li>
-                    <li><a href="#">حركة الحسابات</a></li>
+                    <li><a href="madionafrm.html">مديونية العملاء</a></li>
+                    <li><a href="transform.html">حركة الحسابات</a></li>
                     <li><a href="#">مالية المعقبين</a></li>
                     <li class="divider"></li>
                     <li><a href="#">مالية المكاتب الخارجية|Office Finance</a></li>
@@ -148,6 +148,7 @@
           </div>
         </div>
         <div class="container">
+          <h1 class="text-center">مالية العقود</h1>
           <form role="form">
             <div class="form-group">
               <div class="row">
@@ -166,19 +167,47 @@
               </div>
             </div>
             <div class="form-input text-center">
+              <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                <label>عقود منتهية
+                  <input type="checkbox" name="1" checked="false" id="1" value="1"/>
+                </label>
+              </div>
+              <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                <label>عقد/تفويض
+                  <input type="checkbox" name="2" checked="false" id="2" value="2"/>
+                </label>
+              </div>
+              <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                <label>VIP
+                  <input type="checkbox" name="3" checked="false" id="3" value="3"/>
+                </label>
+              </div>
+              <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                <label>مرتجع
+                  <input type="checkbox" name="4" checked="false" id="4" value="4"/>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
               <div class="row">
                 <div class="col-sm-11">
-                  <div style="margin-top: 0px" class="radio radio-inline">
-                    <label>الرسائل الواردة
-                      <input type="radio" name="1" checked="true" id="radio1" value="radio1"/>
-                    </label>
-                  </div>
-                  <div style="margin-top: 0px" class="radio radio-inline">
-                    <label>الرسائل المرسلة
-                      <input type="radio" name="1" checked="false" id="radio2" value="radio2"/>
-                    </label>
-                  </div>
+                  <select name="1" id="select1" style="width:100%" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
                 </div>
+                <label for="select1" class="control-label">:الدولة</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-sm-11">
+                  <select name="1" id="select2" style="width:100%" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+                <label for="select2" class="control-label">المستخدم</label>
               </div>
             </div>
             <div style="margin-top:20px" class="form-group">
@@ -192,6 +221,54 @@
               </div>
             </div>
           </form>
+        </div>
+        <div class="container">
+          <div class="row">
+            <table style="width:100%" class="table table-responsive table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>عقد / تفويض</th>
+                  <th>مرتجع</th>
+                  <th>منتهي</th>
+                  <th>VIP</th>
+                  <th>غير مختارة</th>
+                  <th>سير مختارة</th>
+                  <th>تاريخ العقد</th>
+                  <th>المسجل</th>
+                  <th>هامش الربح</th>
+                  <th>اتعاب المكتب الخارجي</th>
+                  <th>أتعاب المعقب</th>
+                  <th>مصاريف العقد</th>
+                  <th>المحصل</th>
+                  <th>إجمالي العقد</th>
+                  <th>الجوال</th>
+                  <th>الطرف الثاني</th>
+                  <th>رقم العقد</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <div class="footer">

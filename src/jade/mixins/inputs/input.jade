@@ -29,4 +29,10 @@ mixin radio(name, label, id, checked)
 			label
 				=label
 				input(type="radio" name=name checked=check id=id value=id)
+mixin checkbox(name, label, id, checked)
+	- check = checked || 'false'
+	.checkbox.checkbox-inline(style="margin-top: 0px")
+		label
+			=label
+			input(type="checkbox" name=name checked=check id=id value=id)
 

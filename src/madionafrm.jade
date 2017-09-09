@@ -5,14 +5,15 @@ block title
    title 123
 block content
    .container
-      h1.text-center مالية العقود
       form(role="form")
          +datepange
+         .form-group
+            .col-sm-10
+               input(type='text' id='input1').form-control
+            label(for='input1') :اسم العميل او اي مقطع منه
          .form-input.text-center
-            +checkbox('1', 'عقود منتهية', '1')
-            +checkbox('2', 'عقد/تفويض', '2')
-            +checkbox('3', 'VIP', '3')
-            +checkbox('4', 'مرتجع', '4')
+            +checkbox('1', 'بحث بالتاريخ لاخر دفعة', '1')
+
          .form-group
             .row
                .col-sm-11
@@ -23,10 +24,20 @@ block content
          .form-group
             .row
                .col-sm-11
+                  select(name='1')#select3(style='width:100%').form-control
+                     option(value='1') 1
+                     option(value='2') 2
+               label.control-label(for="select3") : Nationality
+         .form-group
+            .row
+               .col-sm-11
                   select(name='1')#select2(style='width:100%').form-control
                      option(value='1') 1
                      option(value='2') 2
                label.control-label(for="select2") المستخدم
+         .form-input.text-center
+            +checkbox('2', 'العملاء المسددين', '2')
+            +checkbox('3', 'عقود منتهية', '3')
          .form-group(style="margin-top:20px")
             .row.text-center
                .col-sm-6
@@ -38,31 +49,19 @@ block content
          table.table.table-responsive.table-bordered.table-striped(style='width:100%')
             thead
                tr
-                  th عقد / تفويض
-                  th مرتجع
-                  th منتهي
-                  th VIP
-                  th غير مختارة
-                  th سير مختارة
+                  th المتبقي
+                  th اجمالي المدفوع
+                  th اجمالي التكلفة
+                  th تاريخ اخر دفعة
+                  th مصدر العقد
+                  th المستخدم
+                  th الجنسية
                   th تاريخ العقد
-                  th المسجل
-                  th هامش الربح
-                  th اتعاب المكتب الخارجي
-                  th أتعاب المعقب
-                  th مصاريف العقد
-                  th المحصل
-                  th إجمالي العقد
                   th الجوال
-                  th الطرف الثاني
+                  th اسم العميل
                   th رقم العقد
             tbody
                tr
-                  td 123
-                  td 123
-                  td 123
-                  td 123
-                  td 123
-                  td 123
                   td 123
                   td 123
                   td 123

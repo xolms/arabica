@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b7e218d-648c-4076-b088-57b9129fd968" name="Default" comment="" />
+    <list default="true" id="7b7e218d-648c-4076-b088-57b9129fd968" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/madionafrm.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/transform.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/MsgSearchFrm.html" afterPath="$PROJECT_DIR$/build/MsgSearchFrm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/abuotfrm.html" afterPath="$PROJECT_DIR$/build/abuotfrm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/activiationform.html" afterPath="$PROJECT_DIR$/build/activiationform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/aqedbalanceform.html" afterPath="$PROJECT_DIR$/build/aqedbalanceform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/customerordersfrm.html" afterPath="$PROJECT_DIR$/build/customerordersfrm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/emploedinfoform.html" afterPath="$PROJECT_DIR$/build/emploedinfoform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/recstatusmsgform.html" afterPath="$PROJECT_DIR$/build/recstatusmsgform.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/userfrm.html" afterPath="$PROJECT_DIR$/build/userfrm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/aqedbalanceform.jade" afterPath="$PROJECT_DIR$/src/aqedbalanceform.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/mixins/inputs/input.jade" afterPath="$PROJECT_DIR$/src/jade/mixins/inputs/input.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade" afterPath="$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +32,18 @@
       <file leaf-file-name="navbar.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="441">
+              <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MsgSearchFrm.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MsgSearchFrm.jade">
+      <file leaf-file-name="aqedbalanceform.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aqedbalanceform.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activiationform.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/activiationform.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="816">
+              <caret line="75" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,18 +52,18 @@
       <file leaf-file-name="userfrm.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/userfrm.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="86" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="17" selection-end-column="86" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aqedbalanceform.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/aqedbalanceform.jade">
+      <file leaf-file-name="madionafrm.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/madionafrm.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="408">
+              <caret line="45" column="32" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="45" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -65,8 +72,18 @@
       <file leaf-file-name="input.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jade/mixins/inputs/input.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="356">
+              <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transform.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/transform.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -95,6 +112,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -114,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/jade/mixins/footer/navbarfoot.jade" />
         <option value="$PROJECT_DIR$/src/jade/mixins/inputs/date.html" />
-        <option value="$PROJECT_DIR$/src/jade/mixins/inputs/input.jade" />
         <option value="$PROJECT_DIR$/src/MsgSearchFrm.jade" />
         <option value="$PROJECT_DIR$/src/recstatusmsgform.jade" />
         <option value="$PROJECT_DIR$/src/jade/components/styles.jade" />
@@ -127,8 +146,11 @@
         <option value="$PROJECT_DIR$/src/userfrm.pug" />
         <option value="$PROJECT_DIR$/src/jade/mixins/inputs/button.jade" />
         <option value="$PROJECT_DIR$/src/userfrm.jade" />
-        <option value="$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade" />
         <option value="$PROJECT_DIR$/src/aqedbalanceform.jade" />
+        <option value="$PROJECT_DIR$/src/madionafrm.jade" />
+        <option value="$PROJECT_DIR$/src/jade/mixins/inputs/input.jade" />
+        <option value="$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade" />
+        <option value="$PROJECT_DIR$/src/transform.jade" />
       </list>
     </option>
   </component>
@@ -207,6 +229,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -660,12 +683,12 @@
       <updated>1504780347209</updated>
       <workItem from="1504780359388" duration="9877000" />
       <workItem from="1504860938856" duration="2110000" />
-      <workItem from="1504950061467" duration="13604000" />
+      <workItem from="1504950061467" duration="16369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25591000" />
+    <option name="totallyTimeSpent" value="28356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -677,7 +700,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="NativeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -987,26 +1010,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/recstatusmsgform.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jade/mixins/footer/navbarfoot.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/customerordersfrm.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1035,14 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/emploedinfoform.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jade/mixins/inputs/button.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1053,8 +1052,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/userfrm.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="17" column="86" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="17" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/customerordersfrm.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1067,14 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MsgSearchFrm.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1083,18 +1082,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jade/mixins/inputs/input.jade">
+    <entry file="file://$PROJECT_DIR$/src/recstatusmsgform.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/emploedinfoform.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aqedbalanceform.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="816">
+          <caret line="75" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/mixins/inputs/input.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jade/mixins/nav/navbar.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/madionafrm.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/transform.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding />
         </state>
       </provider>
