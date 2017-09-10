@@ -1,0 +1,45 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      h1.text-center مالية المعقبين
+      form(role="form")
+         +datepange
+         .form-group
+            .row
+               .col-sm-11
+                  select(name='1')#select2(style='width:100%').form-control
+                     option(value='1') 1
+                     option(value='2') 2
+               label.control-label(for="select2") :المعقب
+         .form-group(style="margin-top:20px")
+            .row.text-center
+               .col-sm-6
+                  +button('طباعة')
+               .col-sm-6
+                  +button('بحث')
+   .container
+      .row
+         table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+            thead
+               tr
+                  th المتبقي
+                  th المدفوع
+                  th أجرة المعقب
+                  th الطرف الثاني
+                  th تاريخ العقد
+                  th رقم العقد
+                  th المعقب
+            tbody
+               tr
+                  td 1
+                  td 2
+                  td 3
+                  td 4
+                  td 5
+                  td 6
+                  td 7
+

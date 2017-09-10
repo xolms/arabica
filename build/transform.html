@@ -44,16 +44,16 @@
                     <li><a href="aqedbalanceform.html">مالية العقود</a></li>
                     <li><a href="madionafrm.html">مديونية العملاء</a></li>
                     <li><a href="transform.html">حركة الحسابات</a></li>
-                    <li><a href="#">مالية المعقبين</a></li>
+                    <li><a href="muaqebmoneyform.html">مالية المعقبين</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">مالية المكاتب الخارجية|Office Finance</a></li>
-                    <li><a href="#">دفعات المكاتب الخارجية</a></li>
-                    <li><a href="#">دفعات مرتجعات مكاتب خارجية</a></li>
+                    <li><a href="officemoneyfrm.html">مالية المكاتب الخارجية|Office Finance</a></li>
+                    <li><a href="officepaymentsfrm.html">دفعات المكاتب الخارجية</a></li>
+                    <li><a href="returnform.html">دفعات مرتجعات مكاتب خارجية</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">المصاريف العامة</a></li>
-                    <li><a href="#">الايرادات المتنوعة</a></li>
+                    <li><a href="generalpaysfrm.html">المصاريف العامة</a></li>
+                    <li><a href="incomform.html">الايرادات المتنوعة</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">التحويل بين الحسابات</a></li>
+                    <li><a href="transfermoneyaccountfrm.html">التحويل بين الحسابات</a></li>
                     <li><a href="#">أرصدة الحسابات</a></li>
                     <li><a href="#">الميزانية</a></li>
                   </ul>
@@ -147,155 +147,188 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <form role="form">
-            <div class="form-group">
-              <div class="row">
-                <div class="col-sm-6">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <form role="form" style="padding-left:20px">
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="col-sm-10">
+                        <input id="date_old" type="text" class="form-control date"/>
+                      </div>
+                      <label for="date_old" class="control-label">:إلى</label>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="col-sm-10">
+                        <input id="date_new" type="text" class="form-control date"/>
+                      </div>
+                      <label for="date_new" class="control-label">:من</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>رواتب موظفين
+                        <input type="checkbox" name="1" checked="false" id="1" value="1"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>مستحقات موظفين
+                        <input type="checkbox" name="2" checked="false" id="2" value="2"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>مصاريف عقد
+                        <input type="checkbox" name="3" checked="false" id="3" value="3"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>مصاريف معقب
+                        <input type="checkbox" name="4" checked="false" id="4" value="4"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>مصاريف عامة
+                        <input type="checkbox" name="5" checked="false" id="5" value="5"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>وارد عقود
+                        <input type="checkbox" name="6" checked="false" id="6" value="6"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>تفاويض الكترونية
+                        <input type="checkbox" name="7" checked="false" id="7" value="7"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>دفعات مكاتب خارجية
+                        <input type="checkbox" name="8" checked="false" id="8" value="8"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>إيرادات متنوعة
+                        <input type="checkbox" name="9" checked="false" id="9" value="9"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>مرتجعات عملاء
+                        <input type="checkbox" name="10" checked="false" id="10" value="10"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>مرتجعات مكاتب
+                        <input type="checkbox" name="11" checked="false" id="11" value="11"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>سلف الموظفين
+                        <input type="checkbox" name="12" checked="false" id="12" value="12"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>وارد تحويل
+                        <input type="checkbox" name="13" checked="false" id="13" value="13"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>صادر تحويل
+                        <input type="checkbox" name="14" checked="false" id="14" value="14"/>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>نقل كفالات
+                        <input type="checkbox" name="15" checked="false" id="15" value="15"/>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
                   <div class="col-sm-10">
-                    <input id="date_old" type="text" class="form-control date"/>
+                    <select name="1" id="select1" style="width:100%" class="form-control">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                    </select>
                   </div>
-                  <label for="date_old" class="control-label">:إلى</label>
+                  <label for="select1" class="control-label">:الحساب</label>
                 </div>
-                <div class="col-sm-6">
-                  <div class="col-sm-10">
-                    <input id="date_new" type="text" class="form-control date"/>
+                <div class="form-group">
+                  <div class="col-xs-12">
+                    <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                      <label>تحديد الكل
+                        <input type="checkbox" name="13" checked="false" id="13" value="13"/>
+                      </label>
+                    </div>
                   </div>
-                  <label for="date_new" class="control-label">:من</label>
                 </div>
-              </div>
+                <div style="margin-top:20px" class="form-group">
+                  <div class="text-center">
+                    <div class="col-sm-6">
+                      <button class="btn btn-lg btn-primary">طباعة</button>
+                    </div>
+                    <div class="col-sm-6">
+                      <button class="btn btn-lg btn-primary">بحث</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
-            <div class="form-group">
-              <div style="height: 150px;overflow: auto" class="row">
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>رواتب موظفين
-                      <input type="checkbox" name="1" checked="false" id="1" value="1"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>مستحقات موظفين
-                      <input type="checkbox" name="2" checked="false" id="2" value="2"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>مصاريف عقد
-                      <input type="checkbox" name="3" checked="false" id="3" value="3"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>مصاريف معقب
-                      <input type="checkbox" name="4" checked="false" id="4" value="4"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>مصاريف عامة
-                      <input type="checkbox" name="5" checked="false" id="5" value="5"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>وارد عقود
-                      <input type="checkbox" name="6" checked="false" id="6" value="6"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>تفاويض الكترونية
-                      <input type="checkbox" name="7" checked="false" id="7" value="7"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>دفعات مكاتب خارجية
-                      <input type="checkbox" name="8" checked="false" id="8" value="8"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>إيرادات متنوعة
-                      <input type="checkbox" name="9" checked="false" id="9" value="9"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>مرتجعات عملاء
-                      <input type="checkbox" name="10" checked="false" id="10" value="10"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>مرتجعات مكاتب
-                      <input type="checkbox" name="11" checked="false" id="11" value="11"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>سلف الموظفين
-                      <input type="checkbox" name="12" checked="false" id="12" value="12"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>وارد تحويل
-                      <input type="checkbox" name="13" checked="false" id="13" value="13"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>صادر تحويل
-                      <input type="checkbox" name="14" checked="false" id="14" value="14"/>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <div style="margin-top: 0px" class="checkbox checkbox-inline">
-                    <label>نقل كفالات
-                      <input type="checkbox" name="15" checked="false" id="15" value="15"/>
-                    </label>
-                  </div>
-                </div>
-              </div>
+            <div class="col-md-9">
+              <table style="width:90%;margin:0 auto" class="table table-responsive table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>البيان</th>
+                    <th>اسم الحساب</th>
+                    <th>نوع الحركة</th>
+                    <th>دائن</th>
+                    <th>مدين</th>
+                    <th>التاريخ</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="form-group">
-              <div class="row">
-                <div class="col-sm-11">
-                  <select name="1" id="select1" style="width:100%" class="form-control">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                  </select>
-                </div>
-                <label for="select1" class="control-label">:الحساب</label>
-              </div>
-            </div>
-            <div style="margin-top:20px" class="form-group">
-              <div class="row text-center">
-                <div class="col-sm-6">
-                  <button class="btn btn-lg btn-primary">طباعة</button>
-                </div>
-                <div class="col-sm-6">
-                  <button class="btn btn-lg btn-primary">بحث</button>
-                </div>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="footer">

@@ -4,51 +4,73 @@ block includes
 block title
    title 123
 block content
-   .container
-      form(role="form")
-         +datepange
-         .form-group
-            .row(style='height: 150px;overflow: auto')
-               .col-xs-12
-                  +checkbox('1', 'رواتب موظفين', '1')
-               .col-xs-12
-                  +checkbox('2', 'مستحقات موظفين' , '2')
-               .col-xs-12
-                  +checkbox('3', 'مصاريف عقد', '3')
-               .col-xs-12
-                  +checkbox('4','مصاريف معقب' , '4')
-               .col-xs-12
-                  +checkbox('5','مصاريف عامة' , '5')
-               .col-xs-12
-                  +checkbox('6','وارد عقود' , '6')
-               .col-xs-12
-                  +checkbox('7','تفاويض الكترونية' , '7')
-               .col-xs-12
-                  +checkbox('8','دفعات مكاتب خارجية' , '8')
-               .col-xs-12
-                  +checkbox('9','إيرادات متنوعة' , '9')
-               .col-xs-12
-                  +checkbox('10','مرتجعات عملاء' , '10')
-               .col-xs-12
-                  +checkbox('11','مرتجعات مكاتب' , '11')
-               .col-xs-12
-                  +checkbox('12','سلف الموظفين' , '12')
-               .col-xs-12
-                  +checkbox('13','وارد تحويل' , '13')
-               .col-xs-12
-                  +checkbox('14','صادر تحويل' , '14')
-               .col-xs-12
-                  +checkbox('15','نقل كفالات' , '15')
-         .form-group
-            .row
-               .col-sm-11
-                  select(name='1')#select1(style='width:100%').form-control
-                     option(value='1') 1
-                     option(value='2') 2
-               label.control-label(for="select1") :الحساب
-         .form-group(style="margin-top:20px")
-            .row.text-center
-               .col-sm-6
-                  +button('طباعة')
-               .col-sm-6
-                  +button('بحث')
+   .container-fluid
+      .row
+         .col-md-3
+            form(role="form" style='padding-left:20px')
+               +datepange
+               .form-group
+                  .col-xs-12
+                     +checkbox('1', 'رواتب موظفين', '1')
+                  .col-xs-12
+                     +checkbox('2', 'مستحقات موظفين' , '2')
+                  .col-xs-12
+                     +checkbox('3', 'مصاريف عقد', '3')
+                  .col-xs-12
+                     +checkbox('4','مصاريف معقب' , '4')
+                  .col-xs-12
+                     +checkbox('5','مصاريف عامة' , '5')
+                  .col-xs-12
+                     +checkbox('6','وارد عقود' , '6')
+                  .col-xs-12
+                     +checkbox('7','تفاويض الكترونية' , '7')
+                  .col-xs-12
+                     +checkbox('8','دفعات مكاتب خارجية' , '8')
+                  .col-xs-12
+                     +checkbox('9','إيرادات متنوعة' , '9')
+                  .col-xs-12
+                     +checkbox('10','مرتجعات عملاء' , '10')
+                  .col-xs-12
+                     +checkbox('11','مرتجعات مكاتب' , '11')
+                  .col-xs-12
+                     +checkbox('12','سلف الموظفين' , '12')
+                  .col-xs-12
+                     +checkbox('13','وارد تحويل' , '13')
+                  .col-xs-12
+                     +checkbox('14','صادر تحويل' , '14')
+                  .col-xs-12
+                     +checkbox('15','نقل كفالات' , '15')
+               .form-group
+                  .col-sm-10
+                     select(name='1')#select1(style='width:100%').form-control
+                        option(value='1') 1
+                        option(value='2') 2
+                  label.control-label(for="select1") :الحساب
+               .form-group
+                  .col-xs-12
+                     +checkbox('13','تحديد الكل' , '13')
+               .form-group(style="margin-top:20px")
+                  .text-center
+                     .col-sm-6
+                        +button('طباعة')
+                     .col-sm-6
+                        +button('بحث')
+
+         .col-md-9
+            table.table.table-responsive.table-bordered.table-striped(style='width:90%;margin:0 auto')
+               thead
+                  tr
+                     th البيان
+                     th اسم الحساب
+                     th نوع الحركة
+                     th دائن
+                     th مدين
+                     th التاريخ
+               tbody
+                  tr
+                     td 1
+                     td 2
+                     td 3
+                     td 4
+                     td 5
+                     td 6

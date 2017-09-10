@@ -1,0 +1,53 @@
+extends jade/template
+block includes
+   include jade/mixins/**/*.jade
+block title
+   title 123
+block content
+   .container
+      form(role="form")
+         +datepange
+         .form-input.text-center
+            +checkbox('1', 'بحث بالتاريخ', '1')
+         .form-group
+            .row
+               .col-sm-11
+                  select(name='1')#select1(style='width:100%').form-control
+                     option(value='1') 1
+                     option(value='2') 2
+               label.control-label(for="select1") :المكتب
+         .form-group(style="margin-top:20px")
+            .row.text-center
+               .col-sm-6
+                  +button('طباعة')
+               .col-sm-6
+                  +button('بحث')
+   .container
+      .row
+         table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+            thead
+               tr
+                  th العقد
+                  th دفع\مرتجع
+                  th التفاصيل
+                  th اسم الحساب
+                  th نوع الدفع
+                  th تاريخ الدفعة
+                  th المبلغ بالدولار
+                  th المبلغ بالريال
+                  th المكتب
+                  th المستلم
+                  th م
+            tbody
+               tr
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
+                  td 123
