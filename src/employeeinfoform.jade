@@ -1,0 +1,53 @@
+extends jade/template
+block includes
+	include jade/mixins/**/*.jade
+block title
+	title 123
+block content
+	.container
+		form.pull-right(style='width:100%').text-center
+			.row
+				.form-group.col-sm-6
+					.input-group
+						span.input-group-addon
+							i.fa.fa-search
+						input(type='text').form-control
+				.form-group.col-sm-6
+					+btnprint
+					button(style='color:#000; font-size: 25px').btn.btn-link عرض التنبيهات
+					+btnsave
+					+btncross
+					+btnsucc
+
+
+	.container
+		table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+			thead
+				tr
+					th فعال؟
+					th الراتب
+					th انتهاء التأمين
+					th انتهاء الاقامة
+					th انتهاء الجواز
+					th المنصب
+					th المؤهل
+					th الجنسية
+					th الجنس
+					th الموظف
+					th م
+
+			tbody
+				tr
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+
+

@@ -10,16 +10,18 @@ block content
 		.row
 			.form-input.text-center
 			.form-group
-				.col-sm-11
-					select(name='1')#select2(style='width:100%').form-control
-						option(value='1') 1
-						option(value='2') 2
+				.row
+					.col-sm-11
+						select(name='1')#select2(style='width:100%').form-control
+							option(value='1') 1
+							option(value='2') 2
 					label.control-label(for="select2") :الى حساب
-			.form-group(style='padding-bottom:40px;padding-top:10px')
-				.col-sm-11
-					select(name='1')#select1(style='width:100%').form-control
-						option(value='1') 1
-						option(value='2') 2
+			.form-group
+				.row
+					.col-sm-11
+						select(name='1')#select1(style='width:100%').form-control
+							option(value='1') 1
+							option(value='2') 2
 					label.control-label(for="select1") :من حساب
 
 		.row
@@ -39,15 +41,14 @@ block content
 		table.table.table-responsive.table-bordered.table-striped(style='width:100%')
 			thead
 				tr
-					th مرفق
-					th ملاحظات
-					th نوع الدفع
-					th الى حساب
-					th التاريخ
+					th البيان
+					th بيان الدفع
+					th تاريخ التحويل
 					th المبلغ
-					th استلمنا من
-					th الايراد
-					th م
+					th الى حساب
+					th من حساب
+					th المستلم
+
 			tbody
 				tr
 					td 1
@@ -57,8 +58,6 @@ block content
 					td 5
 					td 6
 					td 7
-					td 8
-					td 9
 
 
 

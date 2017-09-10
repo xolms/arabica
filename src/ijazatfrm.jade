@@ -1,0 +1,49 @@
+extends jade/template
+block includes
+	include jade/mixins/**/*.jade
+block title
+	title 123
+block content
+	.container
+		h1.text-center مالية العقود
+		form(role="form")
+			+datepange
+			.form-input.text-center
+				+checkbox('1', ':الموظف', '1')
+				+checkbox('2', 'بحث بالتاريخ', '2')
+
+			.form-group
+				.row
+					.col-sm-12
+						select(name='1')#select1(style='width:100%').form-control
+							option(value='1') 1
+							option(value='2') 2
+
+			.form-group(style="margin-top:20px")
+				.row.text-center
+					.col-sm-6
+						+button('طباعة')
+						+button('بحث')
+					.col-sm-6
+						+btnprint
+						+btnsave
+						+btncross
+						+btnsucc
+
+	.container
+		.row
+			table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+				thead
+					tr
+						th بحث بالتاريخ
+						th نهاية الاجازة
+						th بداية الاجازة
+						th الموظف
+						th م
+				tbody
+					tr
+						td 123
+						td 123
+						td 123
+						td 123
+						td 123

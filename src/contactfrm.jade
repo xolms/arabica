@@ -1,0 +1,41 @@
+extends jade/template
+block includes
+	include jade/mixins/**/*.jade
+block title
+	title 123
+block content
+	.container
+		form.pull-right(style='width:100%').text-center
+			.row
+				.form-group.col-sm-6
+					.input-group
+						span.input-group-addon
+							i.fa.fa-search
+						input(type='text').form-control
+				.form-group.col-sm-6
+					+btnprint
+					+btnsave
+					+btncross
+					+btnsucc
+
+
+	.container
+		table.table.table-responsive.table-bordered.table-striped(style='width:100%')
+			thead
+				tr
+					th فعال
+					th رصيد الاجازات
+					th نهاية العقد
+					th بداية العقد
+					th الموظف
+
+			tbody
+				tr
+					td 123
+					td 123
+					td 123
+					td 123
+					td 123
+
+
+

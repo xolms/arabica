@@ -148,6 +148,7 @@
           </div>
         </div>
         <div class="container">
+          <h1 class="text-center">مالية العقود</h1>
           <form role="form">
             <div class="form-group">
               <div class="row">
@@ -166,61 +167,66 @@
               </div>
             </div>
             <div class="form-input text-center">
+              <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                <label>:الموظف
+                  <input type="checkbox" name="1" checked="false" id="1" value="1"/>
+                </label>
+              </div>
+              <div style="margin-top: 0px" class="checkbox checkbox-inline">
+                <label>بحث بالتاريخ
+                  <input type="checkbox" name="2" checked="false" id="2" value="2"/>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
               <div class="row">
-                <div class="col-sm-11">
-                  <div style="margin-top: 0px" class="radio radio-inline">
-                    <label>الرسائل الواردة
-                      <input type="radio" name="1" checked="true" id="radio1" value="radio1"/>
-                    </label>
-                  </div>
-                  <div style="margin-top: 0px" class="radio radio-inline">
-                    <label>الرسائل المرسلة
-                      <input type="radio" name="1" checked="false" id="radio2" value="radio2"/>
-                    </label>
-                  </div>
+                <div class="col-sm-12">
+                  <select name="1" id="select1" style="width:100%" class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
                 </div>
               </div>
             </div>
             <div style="margin-top:20px" class="form-group">
               <div class="row text-center">
-                <div class="col-sm-4">
-                  <button class="btn btn-lg btn-primary">ارسال رسالة</button>
-                </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                   <button class="btn btn-lg btn-primary">طباعة</button>
-                </div>
-                <div class="col-sm-4">
                   <button class="btn btn-lg btn-primary">بحث</button>
+                </div>
+                <div class="col-sm-6">
+                  <button style="color:#000;font-size:25px" class="btn btn-link"><i class="fa fa-print"></i></button>
+                  <button style="color:#000;font-size:25px" class="btn btn-link"><i class="fa fa-hdd-o"></i></button>
+                  <button style="color:red;font-size:25px" class="btn btn-link"><i class="fa fa-times"></i></button>
+                  <button style="color:green;font-size:25px" class="btn btn-link"><i class="fa fa-check"></i></button>
                 </div>
               </div>
             </div>
           </form>
         </div>
         <div class="container">
-          <table style="width:100%" class="table table-responsive table-bordered table-striped">
-            <thead>
-              <tr>
-                <th>تفاصيل</th>
-                <th>تاريخ القراءة</th>
-                <th>تم القراءة؟</th>
-                <th>تاريخ الارسال</th>
-                <th>المستقبل</th>
-                <th>المرسل</th>
-                <th>م</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>123</td>
-                <td>123</td>
-                <td>123</td>
-                <td>123</td>
-                <td>123</td>
-                <td>123</td>
-                <td>123</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="row">
+            <table style="width:100%" class="table table-responsive table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>بحث بالتاريخ</th>
+                  <th>نهاية الاجازة</th>
+                  <th>بداية الاجازة</th>
+                  <th>الموظف</th>
+                  <th>م</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                  <td>123</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
       <div class="footer">

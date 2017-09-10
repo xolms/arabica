@@ -56,15 +56,15 @@ mixin navbar()
                      li
                         a(href="transfermoneyaccountfrm.html") التحويل بين الحسابات
                      li
-                        a(href="#") أرصدة الحسابات
+                        a(href="balanceaccountfrm.html") أرصدة الحسابات
                      li
                         a(href="#") الميزانية
                li.dropdown
                   a(class="dropdown-toggle" data-toggle="dropdown"  href="#") <b class="caret"></b> الإدارية
                   ul.dropdown-menu
-                     +menuitem('الموظفون')
-                     +menuitem('عقود الموظفون')
-                     +menuitem('الاجازات')
+                     +menuitem('الموظفون','employeeinfoform.html')
+                     +menuitem('عقود الموظفون','contactfrm.html')
+                     +menuitem('الاجازات', 'ijazatfrm.html')
                      li.divider
                      +menuitem('الرواتب')
                      +menuitem('السلف')
